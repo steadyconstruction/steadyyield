@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "./Logo";
 
 const navLinks = [
   { label: "Landlords", href: "#landlords" },
@@ -15,7 +14,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-start gap-10">
           {/* Brand */}
           <div className="max-w-xs">
-            <Logo className="h-10" />
+            <img src="/logo.png" alt="Steady Yield" className="h-10 w-auto object-contain mb-4" />
             <p className="font-body text-xs text-gallery-white/30">
               Fully registered & insured in Ireland
             </p>

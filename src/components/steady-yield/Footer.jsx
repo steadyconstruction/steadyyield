@@ -9,7 +9,7 @@ const navLinks = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-gallery-white/10" style={{ backgroundColor: '#111827' }}>
+    <footer className="border-t border-gallery-white/10" style={{ backgroundColor: '#0d1b2a' }}>
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-14 lg:py-16">
         <div className="flex flex-col md:flex-row justify-between items-start gap-10">
           {/* Brand */}
@@ -18,7 +18,6 @@ export default function Footer() {
               src="https://media.base44.com/images/public/69d516936e59faa54b8f3315/eec02e9c0_Screenshot2026-03-18at72551pm.png"
               alt="Steady Yield"
               className="h-10 w-auto object-contain mb-4"
-              style={{ mixBlendMode: 'screen' }}
             />
             <p className="font-body text-xs text-gallery-white/30">
               Fully registered & insured in Ireland

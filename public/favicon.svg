@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Top-left gold quadrant -->
+  <path d="M50,50 Q25,25 0,0 Q50,0 50,50" fill="#C9A84C"/>
+  <!-- Top-right white quadrant -->
+  <path d="M50,50 Q75,25 100,0 Q100,50 50,50" fill="#ffffff"/>
+  <!-- Bottom-right gold quadrant -->
+  <path d="M50,50 Q75,75 100,100 Q50,100 50,50" fill="#C9A84C"/>
+  <!-- Bottom-left white quadrant -->
+  <path d="M50,50 Q25,75 0,100 Q0,50 50,50" fill="#ffffff"/>
+  <!-- Navy pinwheel blades -->
+  <path d="M50,50 Q35,35 50,0 Q65,35 50,50" fill="#0d1b2a"/>
+  <path d="M50,50 Q65,35 100,50 Q65,65 50,50" fill="#0d1b2a"/>
+  <path d="M50,50 Q65,65 50,100 Q35,65 50,50" fill="#0d1b2a"/>
+  <path d="M50,50 Q35,65 0,50 Q35,35 50,50" fill="#0d1b2a"/>
+</svg>

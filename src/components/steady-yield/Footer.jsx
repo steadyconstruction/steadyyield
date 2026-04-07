@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="max-w-xs">
             <img
-              src="https://media.base44.com/images/public/69d516936e59faa54b8f3315/eec02e9c0_Screenshot2026-03-18at72551pm.png"
+              src="/logo.svg"
               alt="Steady Yield"
               className="h-10 w-auto object-contain mb-4"
             />

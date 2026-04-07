@@ -1,15 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <!-- Top-left gold quadrant -->
-  <path d="M50,50 Q25,25 0,0 Q50,0 50,50" fill="#C9A84C"/>
-  <!-- Top-right white quadrant -->
-  <path d="M50,50 Q75,25 100,0 Q100,50 50,50" fill="#ffffff"/>
-  <!-- Bottom-right gold quadrant -->
-  <path d="M50,50 Q75,75 100,100 Q50,100 50,50" fill="#C9A84C"/>
-  <!-- Bottom-left white quadrant -->
-  <path d="M50,50 Q25,75 0,100 Q0,50 50,50" fill="#ffffff"/>
-  <!-- Navy pinwheel blades -->
-  <path d="M50,50 Q35,35 50,0 Q65,35 50,50" fill="#0d1b2a"/>
-  <path d="M50,50 Q65,35 100,50 Q65,65 50,50" fill="#0d1b2a"/>
-  <path d="M50,50 Q65,65 50,100 Q35,65 50,50" fill="#0d1b2a"/>
-  <path d="M50,50 Q35,65 0,50 Q35,35 50,50" fill="#0d1b2a"/>
+  <!-- White background -->
+  <rect width="100" height="100" fill="white"/>
+  <!-- Gold top-left quadrant -->
+  <path d="M 0,0 L 50,0 A 50,50 0 0,0 0,50 Z" fill="#C9A84C"/>
+  <!-- Gold bottom-right quadrant -->
+  <path d="M 100,100 L 50,100 A 50,50 0 0,1 100,50 Z" fill="#C9A84C"/>
+  <!-- Navy top blade -->
+  <path d="M 50,0 C 44,16 44,34 50,50 C 56,34 56,16 50,0 Z" fill="#0d1b2a"/>
+  <!-- Navy right blade -->
+  <path d="M 100,50 C 84,44 66,44 50,50 C 66,56 84,56 100,50 Z" fill="#0d1b2a"/>
+  <!-- Navy bottom blade -->
+  <path d="M 50,100 C 56,84 56,66 50,50 C 44,66 44,84 50,100 Z" fill="#0d1b2a"/>
+  <!-- Navy left blade -->
+  <path d="M 0,50 C 16,56 34,56 50,50 C 34,44 16,44 0,50 Z" fill="#0d1b2a"/>
 </svg>
